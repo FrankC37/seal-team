@@ -1,0 +1,1 @@
+conda create -n datas pandas jupyter seaborn scikit-learn keras tensorflow
