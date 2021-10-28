@@ -2,3 +2,29 @@ Amazon.com Services, Inc
 Grainger - Drop Ship
 Grainger - Branch Office
 Grainger - Sourcing
+
+
+#STD Bin Discrep catch
+=IF(OR(COUNTIF(F2,"WIP-*"),COUNTIF(F2,"QC-*"),COUNTIF(F2,"Tran*-*"),COUNTIF(F2,"receiving"),COUNTIF(F2,"Conv*-*"),ISBLANK(F2)),"Needs Review","")
+
+
+#Location Wildcard match
+=IFS(COUNTIF(F2,"*-SW"),"SW",COUNTIF(F2,"*-DY"),"DY",TRUE,"No Match, Investigate")
+
+
+When working through, get filters setup for specific type of ship then you can swap around locations and blanks to speed up the workflow
+
+1) Filter for Grainger/Amazon and the according type of shipment (IE: Drop ship in time, DC in time, Drop ship late ...)
+2) Filter for "Days Before Late" according to workload
+3) Filter out WIP/Blank (this step is flipped for the "needs review report")
+4) Filter for SW or DY
+5) Copy UID to printed sheet
+6) Copy Columns A-T into the Access Model
+7) Print to PDF with name like "Priority/Late_DC(if applicable)_Warehouse
+    ex: Priority_DC_SW
+    ex: Late_LNR
+8) Make note of whats complete so far
+    - Make sure all areas are covered
+        - Grainger, Amazon AND all other customers
+        - In time and late shipments
+
