@@ -11,20 +11,44 @@ Grainger - Sourcing
 #Location Wildcard match
 =IFS(COUNTIF(F2,"*-SW"),"SW",COUNTIF(F2,"*-DY"),"DY",TRUE,"No Match, Investigate")
 
+#Day One Review
+=IFS(AND(COUNTIF(AH2,1),OR(COUNTIF(F2,"WIP-*"),ISBLANK(F2))),"Alert Angie",TRUE,"Ignore")
+
+#Discrepancies
+=IFS(AND(AH2 = -2, OR(COUNTIF(F2,"QC-*"),COUNTIF(F2,"Receiving"),COUNTIF(F2,"Conv*-*"))),"Location Review",OR(COUNTIF(F2,"Tran*-*"),COUNTIF(F2,"WIP-*"),COUNTIF(F2,"QC-*"),COUNTIF(F2,"Receiving"),COUNTIF(F2,"Conv*-*"),ISBLANK(F2)),"Ignore",TRUE,"")
+
+Priority = Grainger Drop Ships,DC's,Branch and Amazon. For the day of only.
+
+*DONT PRINT WIP or Transfer-DY*
+Only Day 1 Blank and WIP share with Angie
+
+Leave others alone (unless day 1)
+
+Check if STD Bin is in the same sublocation
+
+
+Send MSC Industrial Seperate
+
+
 
 When working through, get filters setup for specific type of ship then you can swap around locations and blanks to speed up the workflow
 
 1) Filter for Grainger/Amazon and the according type of shipment (IE: Drop ship in time, DC in time, Drop ship late ...)
 2) Filter for "Days Before Late" according to workload
 3) Filter out WIP/Blank (this step is flipped for the "needs review report")
-4) Filter for SW or DY
-5) Copy UID to printed sheet
-6) Copy Columns A-T into the Access Model
-7) Print to PDF with name like "Priority/Late_DC(if applicable)_Warehouse
+4) Filter for any already printed
+5) Filter for SW or DY
+6) Copy UID to printed sheet
+7) Copy Columns A-T into the Access Model
+8) Print to PDF with name like "Priority/Late_DC(if applicable)_Warehouse
     ex: Priority_DC_SW
     ex: Late_LNR
-8) Make note of whats complete so far
+9) Make note of whats complete so far
     - Make sure all areas are covered
-        - Grainger, Amazon AND all other customers
+        - Grainger, Amazon, MSC Industrial AND all other customers
+        - Branch, Drop Shop, DC
         - In time and late shipments
 
+
+
+=IF(U2="Amaz",(IF(TODAY()>=A2,"In Lead Time",(IF(TODAY()>AB2,"Late","")))),"")
