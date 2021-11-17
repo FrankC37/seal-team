@@ -14,9 +14,10 @@ assert os.path.exists(user_input), "I did not find the file at, " + str(user_inp
 #Used in a hardcoded only version
 #sourcefile = r"C:\Users\fconiglio\git\seal-team\vinny\Ship Report V9 10.22.0.xlsx"
 
-#this needs to clear out rows 2-6 in the sheet before convering to csv
+#reads in the user input file, skipping rows 2-7 (in excel), for all sheets
 
 data = pd.read_excel(user_input,skiprows=[1,2,3,4,5,6],sheet_name = None)
 
+#Each sheet in the data frame above will be printed to an indivual csv file, named as the sheet from the excel file
 for sheet_name, data in data.items():
     data.to_csv(f'{sheet_name}.csv',index=False)
