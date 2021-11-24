@@ -1,9 +1,13 @@
 import pandas as pd
+import tkinter as tk
+from tkinter import Canvas, filedialog,Text
 import sys
 import os
 #User input is taken for the path variable.
 print("File path must be followed by file with extension") 
 print("IE: " r"C:\Users\fconiglio\Converted ZCUS Template Rev1.xltm")
+
+
 user_input = input("Enter the path of your file: ")
 
 #user_profile = os.path.join(os.environ['USERPROFILE'], "My Documents")

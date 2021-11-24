@@ -10,7 +10,10 @@ root.title("ZCUS CSV Formatter")
 
 files = []
 
-def addFile():    
+def addFile():
+    for widget in frame.winfo_children():
+        widget.destroy()
+        
     filename = filedialog.askopenfilename(initialdir="/", title= "Select File",
     filetypes=(("Excel Files (XLTM)","*.xltm"),("All Files","*")))
     files.append(filename)
@@ -21,14 +24,14 @@ def addFile():
         label.pack()
 
 def csvConvert():
-    x = 0
-    while x <= len(files):
-        x=0
+    x= 0
+    while x < len(files):
         for file in files:
+            os.chdir("C:/temp")
             data = pd.read_excel(file,skiprows=[1,2,3,4,5,6],sheet_name = None)
             for sheet_name, data in data.items():
                 data.to_csv(f'{sheet_name}.csv',index=False)
-        x+1 
+        x+=1 
 
 
 def quitting():
