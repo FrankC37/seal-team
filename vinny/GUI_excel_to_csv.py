@@ -15,7 +15,7 @@ def addFile():
         widget.destroy()
         
     filename = filedialog.askopenfilename(initialdir="/", title= "Select File",
-    filetypes=(("Excel Files (XLTM)","*.xltm"),("All Files","*")))
+    filetypes=(("Excel Files (XLSX)","*.xlsx"),("All Files","*")))
     files.append(filename)
     print(filename)
 
