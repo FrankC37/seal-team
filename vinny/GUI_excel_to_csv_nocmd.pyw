@@ -34,8 +34,7 @@ def csvConvert():
         x+=1 
 
 
-def quitting():
-    quit()
+
 
 #    data = pd.read_excel(files,skiprows=[1,2,3,4,5,6],sheet_name = None)
 #    for sheet_name, data in data.items():
@@ -53,8 +52,6 @@ open_file.pack()
 convert = tk.Button(root, text="Convert to CSV",padx=10,pady=5,fg="white",bg="black", command= csvConvert)
 convert.pack()
 
-quitter = tk.Button(root, text="Quit",padx=10,pady=5,fg="white",bg="red", command= quitting)
-quitter.pack()
 
 
 root.mainloop()
