@@ -35,7 +35,7 @@ def csvConvert():
 
 
 def quitting():
-    quit()
+    os.system("taskill /im  ZCUS CSV Converter V3.1.exe")
 
 #    data = pd.read_excel(files,skiprows=[1,2,3,4,5,6],sheet_name = None)
 #    for sheet_name, data in data.items():
