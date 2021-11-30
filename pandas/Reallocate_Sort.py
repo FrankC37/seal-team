@@ -14,17 +14,20 @@ excel_file_path = filedialog.askopenfilename(initialdir="/", title= "Select File
     filetypes=(("Excel Files (XLSX)","*.xlsx"),("All Files","*")))
 
 df = pd.read_excel(excel_file_path)
+
 #Time Conversions
 df["Ship By Date"] = pd.to_datetime(df["Ship By Date"])
 df["Ship By Date"] = df["Ship By Date"].dt.strftime('%m/%d/%Y')
+df['Transaction Name'].replace(regex=True,inplace=True,to_replace=r'Sales Order #',value=r'')
+#print(df)
 
 
 skus = df['Product SKU']
 
-
-for sku in skus:
-    df1 = df[(df['Product SKU'] == sku)]
-    df1.to_excel(writer,sheet_name= sku,index=False)
+df.to_excel(writer,index=False)
+#for sku in skus:
+#    df1 = df[(df['Product SKU'] == sku)]
+#    df1.to_excel(writer,sheet_name= sku,index=False)
 
 writer.close()
     
