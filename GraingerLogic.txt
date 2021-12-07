@@ -1,0 +1,26 @@
+# Identify all the Grainger Drop Ship orders that were due today that are shipped
+Transaction Search
+Type is Sales orders
+Main line is false
+Name is grainger drop ship
+Item:Type is Assembly
+Ship Date is today
+Formula: Actual ship date - Ship Date = greater than 0
+
+Results: Count of SKUs
+
+
+
+#Identify all the Grainger Drop ship orders that were due today
+Transaction Search
+Type is Sales orders
+Main line is false
+Name is grainger drop ship
+Item:Type is Assembly
+Ship Date is today
+Formula: Actual ship date - Ship Date = greater than 0
+Results: Count of SKUs
+
+#Define the logic for service rate
+
+All due - failures/All Due
