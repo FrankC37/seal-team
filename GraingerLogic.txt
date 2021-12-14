@@ -24,3 +24,11 @@ Results: Count of SKUs
 #Define the logic for service rate
 
 All due - failures/All Due
+
+
+#Define the Expression for DC logic
+
+Use OR statements in the saved search to try and exclude DC Branch shipments 
+
+SHipping Address IS NOT ""
+using () and OR
