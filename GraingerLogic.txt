@@ -32,3 +32,17 @@ Use OR statements in the saved search to try and exclude DC Branch shipments
 
 SHipping Address IS NOT ""
 using () and OR
+
+
+
+#Define Logic for DC KPI
+
+-DC due today = {today}-{shipdate} = 2
+    Quantity Fulfilled/Recieved > 0
+
+
+F_GraingerMetrics_DC_Due&ShippedbyToday
+F_GraingerMetrics_DC_DueToday_w/Inv
+F_GraingerMetrics_DC_DueToday
+
+For Counts CONCAT({transactionname},{item})
