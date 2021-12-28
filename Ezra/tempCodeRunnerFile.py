@@ -1,4 +1,2 @@
-user_input = input("Enter SKU: ")
-skus = user_input.split(", ")
 
-print(skus)
+    # the number 12 refers to the column position, needs to updated if inv files is changed
