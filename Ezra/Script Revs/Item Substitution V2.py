@@ -55,7 +55,7 @@ for sku in tqdm(skus):
     #printing each SKU into its own Excel document to the hardcoded path
     result.to_excel(df + sku + ".xlsx",index= False)
     #declaring path to file we just output
-    file = df+sku+'.xlsx'
+    #file = df+sku+'.xlsx'
     #opening file in excel
-    os.startfile(file)
+    #os.startfile(file)
 print("File(s) Ready") #decorations
