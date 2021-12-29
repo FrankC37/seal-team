@@ -28,8 +28,7 @@ for sku in tqdm(skus):
     # the number 4 refers to the column position, needs to updated if inv files is changed
     inv_children=inv[inv['RM Master Parent']==child_info.iat[0,4] ]
     
-    #creating a new data set by pulling out specified field of the sku in question we like to look at on top
-    #output 0
+    #creating a new data set by pulling out specified field of the sku in question we like to look at on top - output 0
     child_info_stack=child_info[['Item','RM Length','RM Width']] 
 
     #output 1
@@ -38,12 +37,11 @@ for sku in tqdm(skus):
     #pulling in sales againt the children, has duplicates
     sales_match=pd.merge(left=child_info, right=sales,how='left',left_on='Item', right_on='Product SKU') 
 
-    #dropping excess columns/redefining the data set
-    #output2
+    #dropping excess columns/redefining the data set, output 2
     sales_match=sales_match[['Product SKU','Document Number','Date','Qty on Backorder','Qty on Order','Qty Available','Requested Ship Date']] 
 
     
-    # dropping indexing off the dataframe
+    #testing if this works, dropping indexing off the dataframe
     children_sales_grouped=pd.concat([inv_children.reset_index(drop=True), sales_match], axis= 1) 
     
     # organizing by bom
