@@ -24,7 +24,7 @@ child_info=inv[inv['Item']==sku] #creating a new dataframe and pulling in matchi
 #child_info.info()
 
 inv_children=inv[inv['RM Master Parent']==child_info.iat[0,4] ]#creating a new dataframe with matching rm parents from the inv file
-                                                       # the number 12 refers to the column position, needs to updated if inv files is changed
+# the number 12 refers to the column position, needs to updated if inv files is changed
 #print(inv_children)
 
 child_info_stack=child_info[['Item','RM Length','RM Width']] #creating a new data set by pulling out specified field of the sku in question we like to look at on top - output 0
