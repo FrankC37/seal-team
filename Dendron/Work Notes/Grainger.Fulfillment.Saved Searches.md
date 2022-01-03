@@ -2,7 +2,7 @@
 id: tJOWWTj25zw3zjQ8hUR65
 title: Saved Searches
 desc: ''
-updated: 1640629323934
+updated: 1641246802422
 created: 1639753337247
 ---
 ## Description of Grainger Saved Searches
@@ -75,8 +75,10 @@ created: 1639753337247
     - Pulls in all sales orders, Let the user put in a Parent and pull all the children with open sales orders 
     -   Built for Jeffs Remnant work
 
+-**F_EAU_CALC**
+    - Using this to calculate EAU based on actual order quantity
 
-
+    
 
 
 
