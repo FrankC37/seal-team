@@ -2,7 +2,7 @@
 id: tJOWWTj25zw3zjQ8hUR65
 title: Saved Searches
 desc: ''
-updated: 1641246802422
+updated: 1641315898642
 created: 1639753337247
 ---
 ## Description of Grainger Saved Searches
@@ -19,6 +19,10 @@ created: 1639753337247
 
 - **F_GraingerALL_w/InvDueToday**
     - All Grainger Shipments that are due today and have inventory to ship out (Includes DC and Branch)
+
+-**GraingerDropShip_InShipmentWindow**
+    - All Grainger Drop Ship, that can be fulfilled and meet lead times
+    - 5 days ahead is the window
 
    
 ### These are Grainger searches being used for KPIs and Daily Service Rate Tracking
@@ -37,6 +41,7 @@ created: 1639753337247
     - Same as above, only returns a count
 - **F_GraingerMetrics_w/InvDueToday**
     - All shipments that have inv full committed and can ship
+
 - **F_GraingerMetrics_w/InvDueToday(COUNT)**
     - Same as above, only returns a count
 
@@ -45,8 +50,8 @@ created: 1639753337247
 
 <br />
 
-- **F_GraingerDC_InShipmentWindow**
-    - All DC Shipments that have any qty committed that are still within lead time (+/- 2 Days), (Used by Shipping Team)
+- **GraingerDC_InShipmentWindow**
+    - All DC Shipments that have any qty committed that are still within lead time (- 2 Days), (Used by Shipping Team)
 
 - **F_GraingerMetrics_DC**
     - Place holder currently for duping (Has Grainger DC Address match cases)
