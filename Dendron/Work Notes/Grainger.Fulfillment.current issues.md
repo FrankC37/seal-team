@@ -2,7 +2,7 @@
 id: RMSrDypoNxgP0RcGgBcuZ
 title: Current issues
 desc: ''
-updated: 1641323852990
+updated: 1641409557287
 created: 1639680513899
 ---
 
@@ -14,6 +14,17 @@ created: 1639680513899
 
 - Ask Wen about what field would be the best to use for Item Bin 
     - Some fields would need to be adjusted for this to fully work
+
+
+### Search for partial intime with 0 backlog
+    - Orders in lead time
+    - were previously a partial fulfillment
+    - can now be shipped in leadtime for the remaining qty
+    
+### Wrong Location Sales 0 Committed
+    - Adjust one of the current reallocation reports
+    - need to be able to find past and future orders that meet this 
+
 
 
 
