@@ -2,7 +2,7 @@
 id: RMSrDypoNxgP0RcGgBcuZ
 title: Current issues
 desc: ''
-updated: 1641409557287
+updated: 1641417788305
 created: 1639680513899
 ---
 
@@ -17,11 +17,13 @@ created: 1639680513899
 
 
 ### Search for partial intime with 0 backlog
+#### GraingerDropShip_0 Backlog (Partials in lead time)
     - Orders in lead time
     - were previously a partial fulfillment
     - can now be shipped in leadtime for the remaining qty
     
 ### Wrong Location Sales 0 Committed
+#### F_Wrong_LOC_0_Commit
     - Adjust one of the current reallocation reports
     - need to be able to find past and future orders that meet this 
 
