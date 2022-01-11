@@ -2,7 +2,7 @@
 id: RMSrDypoNxgP0RcGgBcuZ
 title: Current issues
 desc: ''
-updated: 1641417788305
+updated: 1641834528890
 created: 1639680513899
 ---
 
@@ -12,7 +12,7 @@ created: 1639680513899
 
 - The Bin should still be able to be pulled from Inventory Detail : Bin Number
 
-- Ask Wen about what field would be the best to use for Item Bin 
+- Ask Wen about what field would be the best to use for Item Bi\n 
     - Some fields would need to be adjusted for this to fully work
 
 
@@ -26,6 +26,8 @@ created: 1639680513899
 #### F_Wrong_LOC_0_Commit
     - Adjust one of the current reallocation reports
     - need to be able to find past and future orders that meet this 
+
+### How to identify the orders that need to xfer warehouse to committ complete quantity
 
 
 

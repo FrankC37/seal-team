@@ -20,6 +20,7 @@ site:
         payload:
             - vault
             - Work Notes
+            - vault
 commands:
     lookup:
         note:
@@ -38,6 +39,8 @@ commands:
         enableMarker: false
 workspace:
     vaults:
+        -
+            fsPath: vault
         -
             fsPath: Work Notes
         -
@@ -89,3 +92,4 @@ preview:
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
+    automaticallyShowPreview: false

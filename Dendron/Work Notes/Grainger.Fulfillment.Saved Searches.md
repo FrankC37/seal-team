@@ -2,7 +2,7 @@
 id: tJOWWTj25zw3zjQ8hUR65
 title: Saved Searches
 desc: ''
-updated: 1641315898642
+updated: 1641852010622
 created: 1639753337247
 ---
 ## Description of Grainger Saved Searches
@@ -83,7 +83,20 @@ created: 1639753337247
 -**F_EAU_CALC**
     - Using this to calculate EAU based on actual order quantity
 
+-**Pref Bin v Inv Detail**
+    - Building for Jeff
+    - Goal is to pull in pref bin and inv detail
+        - having issues pulling in QOH for specific inv detail bin
     
+-**F_GraingerDC_FindIF_CompleteQTYCommit ADJUSTMENT**
+    - Used for daily updates of commit status on DC orders
+
+
+    download
+    filter for grainger
+    qty committed - filter out  0
+    ship date to today
+    filter for actual shit date
 
 
 
