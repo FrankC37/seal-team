@@ -2,7 +2,7 @@
 id: tJOWWTj25zw3zjQ8hUR65
 title: Saved Searches
 desc: ''
-updated: 1641852010622
+updated: 1641936501805
 created: 1639753337247
 ---
 ## Description of Grainger Saved Searches
@@ -90,15 +90,6 @@ created: 1639753337247
     
 -**F_GraingerDC_FindIF_CompleteQTYCommit ADJUSTMENT**
     - Used for daily updates of commit status on DC orders
-
-
-    download
-    filter for grainger
-    qty committed - filter out  0
-    ship date to today
-    filter for actual shit date
-
-
 
 
 

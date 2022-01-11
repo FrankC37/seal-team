@@ -43,8 +43,7 @@ workspace:
             fsPath: vault
         -
             fsPath: Work Notes
-        -
-            fsPath: vault
+            
     journal:
         dailyDomain: daily
         name: journal
