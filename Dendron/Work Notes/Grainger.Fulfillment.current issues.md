@@ -2,7 +2,7 @@
 id: RMSrDypoNxgP0RcGgBcuZ
 title: Current issues
 desc: ''
-updated: 1641834528890
+updated: 1642013484008
 created: 1639680513899
 ---
 
@@ -30,7 +30,11 @@ created: 1639680513899
 ### How to identify the orders that need to xfer warehouse to committ complete quantity
 
 
-
+### Saved Search for Orders that need a Transfer Order to fulfill
+- Criteria
+    - Find sales where qty committed are 0
+    - Pull in total QTY available
+    - More things i cant think of yet
 
 
 

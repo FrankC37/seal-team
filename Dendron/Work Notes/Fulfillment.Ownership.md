@@ -2,10 +2,10 @@
 id: zcZawKL2UTiZT6UMVCYPL
 title: Ownership
 desc: ''
-updated: 1641924099620
+updated: 1641999843911
 created: 1641923936088
 ---
-# Fulfillment Proccess
+# Fulfillment Process
 
 
 ### Subtitutions:
@@ -43,6 +43,14 @@ This means that when going through reallocations, many other orders are found wi
     4. Backlog w/ Inv - Access Template
 
     ``` This is to print out work for all other customers ```
-    - They should also be monitoring the Priority Requests Google Sheet to identify the NDA requests that Tony inputs. (Also Sales Requests go on this sheet)
+    5. They should also be monitoring the Priority Requests Google Sheet to identify the NDA requests that Tony inputs. (Also Sales Requests go on this sheet)
+    
+
+### Stock Adjustments
+
+1. Brett and Jeff are mainly in charge or stock changes
+2. From the 1/10/2022 meeting, Joe Shields stated he wanted Gabe,Joe Sanders, and Chris to also have this power to adjust stock.
+    -   This could be a good thing, becuase currently there are orders that need to have stock adjusted and will continue to show on the Fulfillment reports until they are fixed. (This causes duplicates to be printed)
+
     
 
