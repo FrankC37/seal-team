@@ -2,7 +2,7 @@
 id: tJOWWTj25zw3zjQ8hUR65
 title: Saved Searches
 desc: ''
-updated: 1641936501805
+updated: 1642024958911
 created: 1639753337247
 ---
 ## Description of Grainger Saved Searches
@@ -90,6 +90,10 @@ created: 1639753337247
     
 -**F_GraingerDC_FindIF_CompleteQTYCommit ADJUSTMENT**
     - Used for daily updates of commit status on DC orders
+
+-**Transfer Lookahead**
+    - Created to try and find orders that need to transfer warehouses
+    - Currently works at a way to find orders that need line item location swapped
 
 
 
