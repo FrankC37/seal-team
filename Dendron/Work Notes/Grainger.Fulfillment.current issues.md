@@ -2,7 +2,7 @@
 id: RMSrDypoNxgP0RcGgBcuZ
 title: Current issues
 desc: ''
-updated: 1642013484008
+updated: 1642086108820
 created: 1639680513899
 ---
 
@@ -11,9 +11,6 @@ created: 1639680513899
 - This should find any items that wont return their bin in other key searched we are building
 
 - The Bin should still be able to be pulled from Inventory Detail : Bin Number
-
-- Ask Wen about what field would be the best to use for Item Bi\n 
-    - Some fields would need to be adjusted for this to fully work
 
 
 ### Search for partial intime with 0 backlog
