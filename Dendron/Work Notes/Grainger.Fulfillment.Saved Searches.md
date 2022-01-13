@@ -2,7 +2,7 @@
 id: tJOWWTj25zw3zjQ8hUR65
 title: Saved Searches
 desc: ''
-updated: 1642024958911
+updated: 1642108153654
 created: 1639753337247
 ---
 ## Description of Grainger Saved Searches
@@ -94,6 +94,9 @@ created: 1639753337247
 -**Transfer Lookahead**
     - Created to try and find orders that need to transfer warehouses
     - Currently works at a way to find orders that need line item location swapped
+-**Stock Per Location_w/Total**
+    - Effective stock report
+    - Pulls in DY on hand, SW on Hand, Total on Hand all in one line
 
 
 
