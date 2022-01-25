@@ -2,7 +2,7 @@
 id: tJOWWTj25zw3zjQ8hUR65
 title: Saved Searches
 desc: ''
-updated: 1642108153654
+updated: 1643134282302
 created: 1639753337247
 ---
 ## Description of Grainger Saved Searches
@@ -97,6 +97,22 @@ created: 1639753337247
 -**Stock Per Location_w/Total**
     - Effective stock report
     - Pulls in DY on hand, SW on Hand, Total on Hand all in one line
+-**NF_Items Received**
+    - Used for NF KPI google doc
+
+-**NF_Orders Placed**
+    -Same as above, just used for tracking purchase orders
+- **Build Network Days on DC report**
+
+ROUND(((To_Char({today}-{shipdate})))-((((TRUNC({today},'D'))-	(TRUNC({shipdate},'D')))/7)*2) -  (CASE WHEN TO_CHAR({shipdate},'DY')='SUN' 	THEN 1 ELSE 0 END) -  (CASE WHEN TO_CHAR({today},'DY')='SAT' THEN 1 ELSE 0 END),2)
+
+### **KPI**
+-**KPI_Items Received (Units)**
+    - Returns only the total amount of units received
+
+-**KPI_Items Received (Lines)**
+    - Returns only the total amount of lines received
+
 
 
 

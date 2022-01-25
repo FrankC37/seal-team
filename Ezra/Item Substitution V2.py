@@ -3,8 +3,8 @@ from tqdm import tqdm
 from datetime import datetime
 import os
 
-inv=pd.read_excel('C:/Users/fconiglio/git/seal-team/Ezra/EZProductionInvSearchResults752.xlsx')
-sales=pd.read_excel('C:/Users/fconiglio/git/seal-team/Ezra/EZ_Backlog_by_Product470.xlsx')
+inv=pd.read_excel('C:/Users/fconiglio/git/seal-team/Ezra/EZProductionInvSearchResults728.xlsx')
+sales=pd.read_excel('C:/Users/fconiglio/git/seal-team/Ezra/EZSalesDetailsResults160.xlsx')
 
 # Date Conversions
 sales["Date"] = pd.to_datetime(sales["Date"])
@@ -32,13 +32,13 @@ for sku in tqdm(skus):
     child_info_stack=child_info[['Item','RM Length','RM Width']] 
 
     #output 1
-    inv_children=inv_children[['Item','RM Thickness','RM Length','RM Width','On Hand','On Order','Committed','Preferred Stock Level','Reorder Point','Reorder Multiple','RM Master Parent','BOM','Bin Number']] 
+    inv_children=inv_children[['Item','RM Thickness','RM Length','RM Width','On Hand','Back Ordered','Committed','Preferred Stock Level','Reorder Point','Reorder Multiple','RM Master Parent','BOM','Bin Number']] 
 
     #pulling in sales againt the children, has duplicates
     sales_match=pd.merge(left=child_info, right=sales,how='left',left_on='Item', right_on='Product SKU') 
 
     #dropping excess columns/redefining the data set, output 2
-    sales_match=sales_match[['Product SKU','Document Number','Date','Qty on Backorder','Qty on Order','Qty Available','Requested Ship Date']] 
+    sales_match=sales_match[['Product SKU','Document Number','Date','Quantity','Qty Available','Requested Ship Date']] 
 
     
     #testing if this works, dropping indexing off the dataframe
@@ -53,7 +53,7 @@ for sku in tqdm(skus):
     #printing each SKU into its own Excel document to the hardcoded path
     result.to_excel(df + sku + ".xlsx",index= False)
     #declaring path to file we just output
-    file = df+sku+'.xlsx'
-    #opening file in excel
-    os.startfile(file)
+    #opening file in excel , uncomment these if you want auto open :)
+    #file = df+sku+'.xlsx'
+    #os.startfile(file)
 print("File(s) Ready") #decorations
