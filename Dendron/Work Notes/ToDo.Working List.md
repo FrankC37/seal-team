@@ -2,18 +2,13 @@
 id: tucaznJ6M5JFWibW59MpD
 title: Working List
 desc: ''
-updated: 1643210522173
+updated: 1643233594069
 created: 1643136659909
 ---
 
-~~-Test out Transfer Order Template~~
-
-~~-Complete Bin Status Transfer for Remnant~~
-
 -Multiple Bins in preffered bin
-    -Have email from Wen on how to do this
-
-~~-Bretts "Blade" Project~~
+- Possibly open support ticket, look into saved search to group bins
+- Check into access report and FWIP_Items, figure out where discrepancy lies,
 
 -Work Order Completion Tracker for Moe
 
