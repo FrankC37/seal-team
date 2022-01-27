@@ -2,7 +2,7 @@
 id: tucaznJ6M5JFWibW59MpD
 title: Working List
 desc: ''
-updated: 1643234499990
+updated: 1643319832222
 created: 1643136659909
 ---
 
@@ -14,8 +14,9 @@ created: 1643136659909
 
 -Big Al/Brett DY -> SW Convo
 
+- Printing Pick tickets for Transfer Orders
+    - Brought up to Syed, going to talk to diego on his next meeting about these not working.
 
 
-
-
+- EAU Field in NetSuite
 
