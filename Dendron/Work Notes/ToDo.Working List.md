@@ -2,21 +2,28 @@
 id: tucaznJ6M5JFWibW59MpD
 title: Working List
 desc: ''
-updated: 1643319832222
+updated: 1643406165232
 created: 1643136659909
 ---
 
--Multiple Bins in preffered bin
-- Possibly open support ticket, look into saved search to group bins
-- Check into access report and FWIP_Items, figure out where discrepancy lies,
+### Multiple Bins in preffered bin
 
--Work Order Completion Tracker for Moe
+- Sent to Chris to test
 
--Big Al/Brett DY -> SW Convo
+### Work Order Completion Tracker for Moe
 
-- Printing Pick tickets for Transfer Orders
-    - Brought up to Syed, going to talk to diego on his next meeting about these not working.
+### Big Al/Brett DY -> SW Convo
 
+### EAU Field in NetSuite
 
-- EAU Field in NetSuite
+- Have instructions for upload
 
+### In Transit Report
+
+- For Ezra
+
+- Not able to get anything working with Quantity In Transit unable to find where this field lives
+    
+### Orders Picked/Packed (Not Shipped)
+
+- Fix for Partials?
