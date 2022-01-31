@@ -2,13 +2,14 @@
 id: tucaznJ6M5JFWibW59MpD
 title: Working List
 desc: ''
-updated: 1643667623716
+updated: 1643667662242
 created: 1643136659909
 ---
 
 ### Multiple Bins in preffered bin
 
-- Sent to Chris to test
+- Chris said first test went well
+
 
 ### Work Order Completion Tracker for Moe
 
