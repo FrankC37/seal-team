@@ -2,7 +2,7 @@
 id: tucaznJ6M5JFWibW59MpD
 title: Working List
 desc: ''
-updated: 1643650135407
+updated: 1643667623716
 created: 1643136659909
 ---
 
@@ -11,8 +11,6 @@ created: 1643136659909
 - Sent to Chris to test
 
 ### Work Order Completion Tracker for Moe
-
-### Big Al/Brett DY -> SW Convo
 
 ### EAU Field in NetSuite
 
@@ -24,10 +22,11 @@ created: 1643136659909
 
 - Not able to get anything working with Quantity In Transit unable to find where this field lives
     
-### Orders Picked/Packed (Not Shipped)
-
-- Fix for Partials?
 
 ### ERP Digging 
+- Grainger Day 1/2 Misses
+
+
+    
 
 
