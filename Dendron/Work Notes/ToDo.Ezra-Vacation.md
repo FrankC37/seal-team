@@ -2,7 +2,7 @@
 id: lvBKreh8jCgvWKHOe0kUV
 title: Ezra-Vacation
 desc: ''
-updated: 1643814726635
+updated: 1643922952925
 created: 1643641419587
 ---
 
@@ -30,12 +30,14 @@ created: 1643641419587
 
 ## Friday -> now a Thursday Task
 - Grainger Urgent Day 1s/2s
-- **Next Week Grainger Prios by Day**
+- **Next Week Grainger Prios by Day** (If you do this by day, how can you be sure you dont have other orders for the same sku at a later day in the week)
 - Standard Work (if needed)
 - In Process Due Tomorrow, Update WO Status
 
 ### Mondays
 - Sublist for Jeff
     - Filter (Grainger Due Next Week, Converted)
+
+
 
 

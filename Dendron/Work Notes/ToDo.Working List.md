@@ -2,9 +2,13 @@
 id: tucaznJ6M5JFWibW59MpD
 title: Working List
 desc: ''
-updated: 1643819748242
+updated: 1644354050219
 created: 1643136659909
 ---
+### Production Dashboard
+- SKU, Description, Machine Assignment, Work Order, Work Order Status, Last Location(Work Center), Sales Order, Ship Date
+<br>
+RED HOT RUSH 
 
 
 ### F_Items Pending Fulfillment
@@ -14,9 +18,7 @@ created: 1643136659909
 
 
 ### EAU Field in NetSuite
-
-- Import Complete
-- Need to look at F_EAU search to see what can be done now
+- Search is comparing fields, need to get with Brett to figure out the logic more
 
 ## Grainger 1-2 Day misses
 - Look at data again
@@ -25,10 +27,7 @@ created: 1643136659909
 ### Grainger Model
 - Looks a week ahead at our stock to see what we think we can actually get out
 
-### Accounting Searches
-
-### Fix Work Order Status Sublist on item
-
+### Accounting Searches?
 
 <br>
 
@@ -36,7 +35,6 @@ created: 1643136659909
 # Backlog
 
 ### Weekly Script to Graph Machine work
-- Get deets from Ezra
 - might be a bit too much to undertake right now, will revisit
 
 ### Work Order Completion Tracker for Moe
