@@ -2,7 +2,7 @@
 id: tucaznJ6M5JFWibW59MpD
 title: Working List
 desc: ''
-updated: 1646066761397
+updated: 1646091060854
 created: 1643136659909
 ---
 
@@ -11,9 +11,9 @@ created: 1643136659909
     - Ground | Freight
 - Orders Shipped
 - Graph
-    
 - Check with Ezra about this
 - Coming in vs going out?
+
 
 ### Production Dashboard
 - SKU, Description, Machine Assignment, Work Order, Work Order Status, Last Location(Work Center), Sales Order, Ship Date
@@ -31,8 +31,9 @@ created: 1643136659909
 - operations income = net ordinary income
 - EBITDA = Net ordinary income 
 - ask tony about blaket orders (works how we expected)
+    - are these not returnable non refundable?
 - gross profit report
-- Sales by FInancial Tax 2 -> Make a table
+- Sales by Financial Tax 2 -> Make a table
 
 - sales by "class" product (financial tax 2)
     - sales vs budget of class
