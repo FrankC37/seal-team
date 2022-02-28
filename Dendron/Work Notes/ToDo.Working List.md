@@ -2,7 +2,7 @@
 id: tucaznJ6M5JFWibW59MpD
 title: Working List
 desc: ''
-updated: 1646061663030
+updated: 1646066761397
 created: 1643136659909
 ---
 
@@ -27,25 +27,26 @@ created: 1643136659909
 - ops kpi
 - sales by 2
 - Processed/Invoiced Sales added in?
-# Income Statement
+### Income Statement
 - operations income = net ordinary income
-- EBITDA = Net ordinary income
-- ask tony about blaket orders
+- EBITDA = Net ordinary income 
+- ask tony about blaket orders (works how we expected)
 - gross profit report
 - Sales by FInancial Tax 2 -> Make a table
 
-- sales by product (financial tax 2)
+- sales by "class" product (financial tax 2)
     - sales vs budget of class
     - monthly
     - ytd
     
-
 
 ## KPI
 - $ value open orders
 - $ value open quotes
 
 ## Roles
+- Adjust roles to reduce clutter
+
 
 ### Review Backlog w/ Inv (Includes Partial) report 
 - Adjust the committ on old orders 
@@ -53,11 +54,6 @@ created: 1643136659909
 ### EAU Field in NetSuite
 - Search is comparing fields, need to get with Brett to figure out the logic more
 - if 30% of EAU flag those skus to look at orders
-
-
-
-### Grainger Model
-- Looks a week ahead at our stock to see what we think we can actually get out
 
 
 ## Sandbox
