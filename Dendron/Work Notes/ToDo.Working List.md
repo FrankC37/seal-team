@@ -2,7 +2,7 @@
 id: tucaznJ6M5JFWibW59MpD
 title: Working List
 desc: ''
-updated: 1645638442381
+updated: 1646061663030
 created: 1643136659909
 ---
 
@@ -27,6 +27,25 @@ created: 1643136659909
 - ops kpi
 - sales by 2
 - Processed/Invoiced Sales added in?
+# Income Statement
+- operations income = net ordinary income
+- EBITDA = Net ordinary income
+- ask tony about blaket orders
+- gross profit report
+- Sales by FInancial Tax 2 -> Make a table
+
+- sales by product (financial tax 2)
+    - sales vs budget of class
+    - monthly
+    - ytd
+    
+
+
+## KPI
+- $ value open orders
+- $ value open quotes
+
+## Roles
 
 ### Review Backlog w/ Inv (Includes Partial) report 
 - Adjust the committ on old orders 
